@@ -1,7 +1,5 @@
 <?php
 
-$connect = mysqli_connect('localhost', 'root', '', 'PFWP');
-
 $result = ['0'];
 $counter = 0;
 $words = array();
