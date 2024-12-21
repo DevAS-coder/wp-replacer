@@ -119,8 +119,7 @@ function word_replacer_settings_page() {
        <th>Delete</th>
        <tr>
     <?php
-    $connect = mysqli_connect('localhost', 'root', '', 'PFWP');
-
+    
     $result = ['0'];
     $counter = 0;
     global $wpdb;
